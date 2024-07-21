@@ -19,6 +19,28 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  padding: 40px;
+}
+
+.group-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-nav {
+    display: inline;
+}
+
+.flex-nav2 {
+    flex: 1;
+}
+
+.align-section {
+    text-align: left;
+}
+
+.portfolio-font {
+    font-size: 14px;
 }
 
 /* Containers */
@@ -60,11 +82,13 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+      display: inline;
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+      display: inline;
 }
 
 /* Footer */
